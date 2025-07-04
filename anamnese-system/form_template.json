@@ -1,0 +1,46 @@
+{
+  "form_name": "Standard Anamnesebogen V1",
+  "pages": [
+    {
+      "page_number": 0,
+      "fields": [
+        {
+          "id": "nachname",
+          "label": "Nachname",
+          "type": "ocr",
+          "coords": {"x": 150, "y": 250, "width": 800, "height": 50}
+        },
+        {
+          "id": "vorname",
+          "label": "Vorname",
+          "type": "ocr",
+          "coords": {"x": 150, "y": 320, "width": 800, "height": 50}
+        },
+        {
+          "id": "herzschrittmacher",
+          "label": "Tragen Sie einen Herzschrittmacher?",
+          "type": "omr",
+          "coords": {
+            "ja": {"x": 400, "y": 500, "width": 40, "height": 40},
+            "nein": {"x": 550, "y": 500, "width": 40, "height": 40}
+          }
+        },
+        {
+          "id": "allergien_bekannt",
+          "label": "Sind Allergien bekannt?",
+          "type": "omr",
+          "coords": {
+            "ja": {"x": 400, "y": 580, "width": 40, "height": 40},
+            "nein": {"x": 550, "y": 580, "width": 40, "height": 40}
+          }
+        },
+        {
+          "id": "allergien_details",
+          "label": "Wenn ja, welche?",
+          "type": "ocr",
+          "coords": {"x": 200, "y": 650, "width": 1000, "height": 80}
+        }
+      ]
+    }
+  ]
+}

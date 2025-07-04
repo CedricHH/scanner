@@ -1,0 +1,8 @@
+PyMuPDF
+opencv-python
+Pillow
+pytesseract
+fastapi
+uvicorn[standard]
+python-multipart
+pytest
